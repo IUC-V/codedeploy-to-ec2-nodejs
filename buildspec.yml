@@ -19,4 +19,8 @@ phases:
       - echo "Storing Build Artifact to the Location"
       - ls -la  # Add this to list files and check for files being available
 
+artifacts:
+    type: zip
+    paths:
+    - '*'
 
